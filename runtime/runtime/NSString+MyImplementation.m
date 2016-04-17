@@ -11,7 +11,12 @@
 @implementation NSString (MyImplementation)
 
 - (NSString *)myLowercaseString {
+    NSLog(@"转换大写!!!");
     return [self uppercaseString];
+
+
+
+
 }
 
 @end

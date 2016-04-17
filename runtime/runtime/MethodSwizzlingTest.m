@@ -45,7 +45,7 @@ static NSString *mixedString = @"Hello World";
     [self startMethodSwizzling];
     
     NSLog(@"进行Method Swizzling之后：");
-    NSLog(@"小写字符串：%@", [mixedString lowercaseString]);
+    NSLog(@"小写字符串转换大写后-->：%@", [mixedString lowercaseString]);
 }
 
 - (void)startMethodSwizzling {
